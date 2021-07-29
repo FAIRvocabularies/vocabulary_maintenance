@@ -6,7 +6,7 @@ labels: term_revision
 body: 
 - type: markdown
   attributes: 
-    value: "## Thanks for suggesting a term retirement"
+    value: "## Thanks for suggesting a term revision"
 - type: input
   id: prefLabel
   attributes: 
