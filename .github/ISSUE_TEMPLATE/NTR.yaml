@@ -53,12 +53,12 @@ body:
     label: mapping term 
     description: related term or class in another vocabulary
     placeholder: URI(s) (one per line)
-- type: input
+- type: textarea
   id: altLabel
   attributes: 
     label: synonym or alternative label
     description: label with no punctuation except `-` and `_`
-    placeholder: label
+    placeholder: label(s) (one per line)
 - type: textarea
   id: scopeNote
   attributes:
