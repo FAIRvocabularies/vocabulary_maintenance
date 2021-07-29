@@ -13,12 +13,16 @@ body:
     label: new term label
     description: label with no punctuation except `-` and `_`
     placeholder: label
+  validations:
+    required: true
 - type: textarea
   id: definition
   attributes:
     label: definition
     description: textual definition
     placeholder: definition
+  validations:
+    required: true
 - type: input
   id: sourceURI
   attributes: 
