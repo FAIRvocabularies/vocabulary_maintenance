@@ -1,0 +1,69 @@
+---
+name: New term request form
+description: A request for a new term to be added to the vocabulary.
+title: "[NTR]: "
+labels: new_term_request
+body: 
+- type: markdown
+  attributes: 
+    value: "## Thanks for suggesting a new term"
+- type: input
+  id: prefLabel
+  attributes: 
+    label: new term label
+    description: label with no punctuation except `-` and `_`
+    placeholder: label
+- type: textarea
+  id: definition
+  attributes:
+    label: definition
+    description: textual definition
+    placeholder: definition
+- type: input
+  id: sourceURI
+  attributes: 
+    label: source of definition (URI)
+    description: URI for the source of the definition
+    placeholder: URI
+- type: textarea
+  id: source
+  attributes:
+    label: source of definition (citation)
+    description: citation for the source of the definition
+    placeholder: citation
+- type: input
+  id: broader
+  attributes: 
+    label: broader term 
+    description: broader term or super-class
+    placeholder: label
+- type: textarea
+  id: relation
+  attributes: 
+    label: related term(s) 
+    description: related term or class in this vocabulary
+    placeholder: label(s) (one per line)
+- type: textarea
+  id: match
+  attributes: 
+    label: mapping term 
+    description: related term or class in another vocabulary
+    placeholder: URI(s) (one per line)
+- type: input
+  id: altLabel
+  attributes: 
+    label: synonym or alternative label
+    description: label with no punctuation except `-` and `_`
+    placeholder: label
+- type: textarea
+  id: scopeNote
+  attributes:
+    label: usage- or scope-note
+    description: scope note
+    placeholder: note
+- type: textarea
+  id: comment
+  attributes:
+    label: additional information
+    description: comment
+    placeholder: comment
