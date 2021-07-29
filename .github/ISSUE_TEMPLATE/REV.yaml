@@ -18,8 +18,8 @@ body:
 - type: textarea
   id: definition
   attributes:
-    label: definition
-    description: textual definition (if change requested)
+    label: definition (if change requested)
+    description: textual definition
     placeholder: definition
 - type: input
   id: sourceURI
