@@ -5,22 +5,23 @@ labels: term_revision
 ---
 # Existing term label (required)
 
-# Definition (if change requested)
+# Textual definition (if change requested)
 
 # Source of definition (URI) (if change to definition is requested)
 
-# Source of definition (citation) (if a URI is not available and a change to definition is requested)
+# Source of definition (citation) (if a change to definition is requested)
+<!-- if a URI is not available -->
 
 # Broader-term or parent-class (if change requested)
 
 # Cross-references within the vocabulary (if change requested)
 
-# Cross-references outside the vocabulary (if change requested - URIs if possible)
+# Cross-references outside the vocabulary (if change requested)
+<!-- URIs if possible -->
 
 # Synonyms or alternative labels (if change requested)
 
 # Usage or scope note (if change requested)
 
 # Additional information
-
 
