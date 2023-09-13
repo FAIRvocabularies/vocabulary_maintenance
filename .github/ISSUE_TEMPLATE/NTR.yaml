@@ -65,6 +65,12 @@ body:
     label: usage- or scope-note
     description: scope note
     placeholder: note
+- type: input
+  id: submitter
+  attributes:
+    label: submitter name
+    description: the name of the submitter of the new term request
+    placeholder: full name
 - type: textarea
   id: comment
   attributes:
